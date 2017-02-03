@@ -1,4 +1,4 @@
 from PIL import Image
 
-image1 = Image.open('1.png')
-#image1.show()
+img = Image.open("1.png")
+img.show()
