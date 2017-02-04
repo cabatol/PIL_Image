@@ -16,5 +16,5 @@ for i in imgs:
 arr = numpy.array(numpy.round(arr), dtype = numpy.uint8)
 
 finalImg = Image.fromarray(arr, mode = "RGB")
-finalImg.save("finalImg.png")
+finalImg.save("testImg.jpg")
 finalImg.show()
